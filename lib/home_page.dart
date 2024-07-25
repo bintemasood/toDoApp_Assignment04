@@ -1,6 +1,7 @@
 import 'package:assignment04/utils/todo_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
 class HomePage extends StatefulWidget {
     HomePage({super.key});
 
@@ -12,7 +13,7 @@ class _HomePageState extends State<HomePage> {
 final _controller = TextEditingController();
 List toDoList=[
 ['Learn Flutter',false],
-['Zainab homework',false],
+['Doing Assignments',false],
 ];
 
 void checkBoxChanged(int index){
